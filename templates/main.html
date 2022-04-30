@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include 'head.html' %}
+  </head>
+  <body>
+    <!-- Responsive navbar-->
+    {% include 'nav.html' %}
+
+    <!-- Page content-->
+    {% block content %}{% endblock content %}
+
+    <!-- Bootstrap core JS-->
+    {% include 'script.html' %}
+  </body>
+</html>
